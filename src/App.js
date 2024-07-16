@@ -3,7 +3,7 @@ import './App.css';
 import './food.css'
 //import Conditional from './webpage/webpage';
 //import CustomClassList from './classComponant/classcustomList';
-//import HundredBlocks from './evenOddBlock';
+import HundredBlocks from './evenOddBlock';
 //import ButtonClass from './classComponant/buttonClass';
 //import { ProgressBar } from 'react-bootstrap';
 // import { UnorderList } from "./unorderlist";
@@ -21,7 +21,7 @@ import './food.css'
 
 //import CustomList from './customList';
 //import Heading from './heading';
-import Ingrient from './ingrient';
+//import Ingrient from './ingrient';
 
 function App() {
 
@@ -48,7 +48,7 @@ function App() {
     <CardList/>  */}
     {/* <Conditional array ={["hbh","iju","123","uiyui"]}/>
      <HundredBlocks/>  */}
-  <Ingrient/>
+  <HundredBlocks/>
        {/* <HundredBlocks/>
     <ButtonClass list="click"/> */}
       </>

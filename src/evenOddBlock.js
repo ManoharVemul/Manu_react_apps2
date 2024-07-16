@@ -15,7 +15,7 @@ const HundredBlocks = () => {
             {each % 2 === 0 ? 'Even block' : 'Odd block'}
             <h2>{each} <br/>
               BLOCK </h2>
-              <ButtonClass />
+              {/* <ButtonClass /> */}
           </div>
         )
       })}
