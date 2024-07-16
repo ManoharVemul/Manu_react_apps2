@@ -1,4 +1,5 @@
-import ButtonClass from './classComponant/buttonClass'
+import ButtonComponent from './buttonComponent'
+
 import './even.css'
 const HundredBlocks = () => {
   const data = [
@@ -15,7 +16,9 @@ const HundredBlocks = () => {
             {each % 2 === 0 ? 'Even block' : 'Odd block'}
             <h2>{each} <br/>
               BLOCK </h2>
-              {/* <ButtonClass /> */}
+              <ButtonComponent buttonName=" + "/> 
+               <ButtonComponent buttonName="click me"/> 
+               <ButtonComponent buttonName=" - "/> 
           </div>
         )
       })}
