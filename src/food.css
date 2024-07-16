@@ -1,0 +1,19 @@
+.food {
+    width: 500px;
+    height: 1080px;
+    background-color: #f9d20d;
+    box-shadow: 2px 2px 8px rgba(243, 239, 239, 0.2); 
+    border-radius: 15px;
+   
+    padding:8px;
+    color: #c12d30;
+}
+img h2 {
+   text-align: center; 
+}
+
+#root {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 12px;
+}
