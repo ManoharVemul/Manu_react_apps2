@@ -11,7 +11,7 @@ import './food.css'
 // import Table from "./table";
 // import Card from "./card";
 //import ArrMap from './arrMap';
- import CardList from './fakestore';
+// import CardList from './fakestore';
 //import Ingrient from './ingrient';
 //  import Header from './haeder';
 //  import { ProgressBar } from 'react-bootstrap';
@@ -21,7 +21,7 @@ import './food.css'
 
 //import CustomList from './customList';
 //import Heading from './heading';
-//import Ingrient from './ingrient';
+import Ingrient from './ingrient';
 
 function App() {
 
@@ -48,7 +48,7 @@ function App() {
     <CardList/>  */}
     {/* <Conditional array ={["hbh","iju","123","uiyui"]}/>
      <HundredBlocks/>  */}
-   <CardList/>  
+  <Ingrient/>
        {/* <HundredBlocks/>
     <ButtonClass list="click"/> */}
       </>
