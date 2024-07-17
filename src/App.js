@@ -24,6 +24,8 @@ import './App.css';
 //import Heading from './heading';
 //import Ingrient from './ingrient';\
 import ButtonClass from './classComponant/buttonClass'
+import IplProgress from './classComponant/IplTeam';
+import SquareBlock from './classComponant/squareBlock';
 
 function App() {
 
@@ -47,7 +49,9 @@ function App() {
   return (
     <>
  
-    <ButtonClass/>
+    {/* <ButtonClass/> */}
+    {/* <SquareBlock/> */}
+    <IplProgress/> 
     
       </>
       );

@@ -6,7 +6,7 @@ function CounterButton (){
     return (
 
         <div>
-            
+
         <ButtonComponent buttonName="  +  "/>
 
         <ButtonComponent buttonName="  Reset  "/>

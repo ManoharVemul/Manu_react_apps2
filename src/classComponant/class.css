@@ -1,8 +1,44 @@
 button {
-background-color: darkslategray;
-color: rgb(255, 98, 20);
-height: 50px;
+    background-color: darkslategray;
+    color: rgb(255, 98, 20);
+    height: 50px;
+    width: fit-content;
+    display: block;
+    text-align: center;
 }
-h1{
+/* 
+h1 {
     color: greenyellow;
+} */
+
+.evenSqr {
+    color: rgb(8, 240, 8);
+    background-color: #f824cdf3;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 15px;
+    justify-content: center;
+    margin: 15px;
+}
+
+.oddSqr {
+    color: rgb(225, 9, 9);
+    background-color: rgb(255, 251, 0);
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    border-radius: 15px;
+    margin: 15px;
+}
+
+
+.grid{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-content: space-around;
+}
+
+#root{
+    text-align: center;
 }

@@ -15,10 +15,13 @@ class ButtonClass extends Component {
     };
     decreasement = () => {
 
+
+
+
         this.setState({
 
-            incr: this.state.incr - 1
-        })  
+            incr: (this.state.incr > 0 ? this.state.incr - 1 : 0)
+        })
     };
     reset = () => {
 
@@ -28,12 +31,12 @@ class ButtonClass extends Component {
     };
 
     render() {
-         return (
-            <div style ={{textAlign:"center"}} >
-                <h1 >COUNTER         {"      " + this.state.incr}</h1>
-                <button onClick={this.increasement}>  ++  </button>
+        return (
+            <div style={{ textAlign: "center" }} >
+                <h1>COUNTER        {"  ---->  " + this.state.incr}</h1>
+                <button onClick={this.increasement}>  Increase </button>
                 <button onClick={this.reset}> Reset </button>
-                <button onClick={this.decreasement}>  --  </button>
+                <button onClick={this.decreasement}>  decrease </button>
             </div>
         )
     }
