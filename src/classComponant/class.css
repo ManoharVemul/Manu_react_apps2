@@ -3,9 +3,10 @@ button {
     color: rgb(255, 98, 20);
     height: 50px;
     width: fit-content;
-    display: block;
-    text-align: center;
+    /* display: grid;
+    text-align: center; */
 }
+
 /* 
 h1 {
     color: greenyellow;
@@ -41,4 +42,26 @@ h1 {
 
 #root{
     text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+}
+
+.count{
+    text-align: center;
+    width: 300px;
+    height:300px;
+    border-radius: 15px;
+    background-color: rgb(243, 239, 234);
+    box-shadow: #f824cdf3;
+
+}
+
+
+
+#sigClk{
+    background-color: cornflowerblue;
+}
+#dblclk{
+    background-color: rgb(48, 151, 67);
 }

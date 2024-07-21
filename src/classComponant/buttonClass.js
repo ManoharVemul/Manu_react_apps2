@@ -32,8 +32,8 @@ class ButtonClass extends Component {
 
     render() {
         return (
-            <div style={{ textAlign: "center" }} >
-                <h1>COUNTER        {"  ---->  " + this.state.incr}</h1>
+            <div className="count" >
+                <h1>COUNTER        <br/> {this.state.incr}</h1>
                 <button onClick={this.increasement}>  Increase </button>
                 <button onClick={this.reset}> Reset </button>
                 <button onClick={this.decreasement}>  decrease </button>

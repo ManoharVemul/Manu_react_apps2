@@ -1,6 +1,7 @@
 //import logo from './logo.svg';
 import './App.css';
-//import './food.css'
+import TableApi from './classComponant/classTable';
+import './food.css'
 //import Conditional from './webpage/webpage';
 //import CustomClassList from './classComponant/classcustomList';
 //import HundredBlocks from './evenOddBlock';
@@ -22,10 +23,14 @@ import './App.css';
 
 //import CustomList from './customList';
 //import Heading from './heading';
-//import Ingrient from './ingrient';\
-import ButtonClass from './classComponant/buttonClass'
-import IplProgress from './classComponant/IplTeam';
-import SquareBlock from './classComponant/squareBlock';
+// import Ingrient from './ingrient';
+// import ButtonClass from './classComponant/buttonClass'
+// import FakeApi from './classComponant/ClassFakeApi';
+//  import IplProgress from './classComponant/IplTeam';
+ import SquareBlock from './classComponant/squareBlock';
+// import { ProgressBar } from './progress';
+
+//import FakeApi from './classComponant/ClassFakeApi';
 
 function App() {
 
@@ -48,11 +53,16 @@ function App() {
   //   }
   return (
     <>
- 
+    {/* <Ingrient/> */}
+    {/* <FakeApi/> */}
     {/* <ButtonClass/> */}
-    {/* <SquareBlock/> */}
-    <IplProgress/> 
-    
+    <SquareBlock/>
+    {/* <IplProgress/>  */}
+
+    {/* <ProgressBar completed={20} bgcolor="green"/> */}
+  
+    {/* <TableApi/> */}
+
       </>
       );
 }
