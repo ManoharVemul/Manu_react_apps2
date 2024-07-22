@@ -16,11 +16,10 @@ class FakeApi extends Component {
             if (status === 200) {
                 this.setState({
                     items: data.products,
-                    loader: false
+                    loader: true
                 })
 
             }
-
 
         } catch (error) {
             this.setState({
@@ -30,18 +29,19 @@ class FakeApi extends Component {
         }
 
 
-
-
-
     }
     render() {
         return (
-            <>{
-                this.state.loader ? this.state.items.map((each, index) => (
+            <>
+            <button onClick={this.Handler}>click</button>
+            {
+                this.state.loader ? ( this.state.items.map((each, index) => (
                     <div key={index}>
                         <h1>{each.title}</h1>
                         <button onClick={this.product}>click</button>
-                    </div>)) : (<h1>Page is Loading...</h1>)
+                    </div>))) : (<h1>Page is Loading...</h1>)
+
+
             }
             </>
         )

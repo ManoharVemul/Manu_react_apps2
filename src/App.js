@@ -28,9 +28,10 @@ import './food.css'
 // import FakeApi from './classComponant/ClassFakeApi';
 //  import IplProgress from './classComponant/IplTeam';
  import SquareBlock from './classComponant/squareBlock';
+import UserData from './classComponant/userData';
 // import { ProgressBar } from './progress';
 
-//import FakeApi from './classComponant/ClassFakeApi';
+import FakeApi from './classComponant/ClassFakeApi';
 
 function App() {
 
@@ -53,14 +54,16 @@ function App() {
   //   }
   return (
     <>
+    {/* <FakeApi/> */}
+    {/* <UserData/> */}
     {/* <Ingrient/> */}
     {/* <FakeApi/> */}
     {/* <ButtonClass/> */}
-    <SquareBlock/>
+    {/* <SquareBlock/> */}
     {/* <IplProgress/>  */}
 
     {/* <ProgressBar completed={20} bgcolor="green"/> */}
-  
+    <TableApi/>
     {/* <TableApi/> */}
 
       </>

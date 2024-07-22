@@ -12,14 +12,13 @@ class SquareBlock extends Component {
            arr:newBlock
         })};
 
-    handeler = ()=>{
-        
-
+    handeler = (newBlock,targetBlock)=>{
+        const updatedArr = this.state.arr
+        this.setState({
+            arr:updatedArr
+        })
 
     }
-
-
-
 
 
     sqrEvent = (arr,targetBlock) => {
