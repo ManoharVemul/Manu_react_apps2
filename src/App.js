@@ -62,11 +62,12 @@ function App() {
     {/* <ButtonClass/> */}
     {/* <SquareBlock/> */}
     {/* <IplProgress/>  */}
-    <FakeApi/>
+    {/* <FakeApi/> */}
     {/* <CardList/> */}
     {/* <ProgressBar completed={20} bgcolor="green"/> */}
     {/* <TableApi/> */}
     {/* <TableApi/> */}
+     <TableApi/>
 
       </>
       );
