@@ -11,7 +11,7 @@ import './food.css'
 // import { UnorderList } from "./unorderlist";
 // import OrderList from "./orderlist";
 // import Table from "./table";
-// import Card from "./card";
+ // import Card from "./card";
 //import ArrMap from './arrMap';
 // import CardList from './fakestore';
 //import Ingrient from './ingrient';
@@ -32,10 +32,11 @@ import UserData from './classComponant/userData';
 // import { ProgressBar } from './progress';
 
 import FakeApi from './classComponant/ClassFakeApi';
+import CardList from './fakestore';
 
 function App() {
 
- 
+
   //   const ayyo = {
   //     display: "grid",
   //     textAlign: "center",
@@ -61,9 +62,10 @@ function App() {
     {/* <ButtonClass/> */}
     {/* <SquareBlock/> */}
     {/* <IplProgress/>  */}
-
+    <FakeApi/>
+    {/* <CardList/> */}
     {/* <ProgressBar completed={20} bgcolor="green"/> */}
-    <TableApi/>
+    {/* <TableApi/> */}
     {/* <TableApi/> */}
 
       </>
