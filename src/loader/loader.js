@@ -10,12 +10,12 @@ export default function Loader() {
 height="240"
 width="240"
 radius="9"
-color="green"
-
-
+color="violet"
 ariaLabel="three-dots-loading"
 wrapperStyle
 wrapperClass
+
+
 />
 <DNA
 visible={true}
