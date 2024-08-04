@@ -9,7 +9,7 @@ export default function Loader() {
 <Audio
 height="240"
 width="240"
-radius="9"
+radius="10"
 color="violet"
 ariaLabel="three-dots-loading"
 wrapperStyle
