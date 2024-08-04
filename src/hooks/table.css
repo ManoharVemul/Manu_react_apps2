@@ -1,0 +1,20 @@
+.custom-table {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+}
+
+.custom-table th {
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.custom-table td {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.custom-table tbody tr:hover {
+    background-color: #e9ecef;
+}
+

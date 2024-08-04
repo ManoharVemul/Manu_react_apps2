@@ -1,7 +1,8 @@
 //import logo from './logo.svg';
 import './App.css';
-import TableApi from './classComponant/classTable';
-import './food.css'
+import Loader from './loader/loader';
+//import TableApi from './classComponant/classTable';
+// import './food.css'
 //import Conditional from './webpage/webpage';
 //import CustomClassList from './classComponant/classcustomList';
 //import HundredBlocks from './evenOddBlock';
@@ -27,50 +28,30 @@ import './food.css'
 // import ButtonClass from './classComponant/buttonClass'
 // import FakeApi from './classComponant/ClassFakeApi';
 //  import IplProgress from './classComponant/IplTeam';
- import SquareBlock from './classComponant/squareBlock';
-import UserData from './classComponant/userData';
+// import SquareBlock from './classComponant/squareBlock';
+// import UserData from './classComponant/userData';
+//import RecipeList from './hooks/recipeListFun';
+//import LogInControlled from './hooks/logIn-Controlled';
+import NavigationStack from './navigation/navigation';
+//import InvalidScreen from './Screens/invalid-screen';
+//import RecipeUseEffect from './hooks/recipeUseEffect';
+//import SqrBlock from './hooks/squreBlockFun';
 // import { ProgressBar } from './progress';
 
-import FakeApi from './classComponant/ClassFakeApi';
-import CardList from './fakestore';
+//import FakeApi from './classComponant/ClassFakeApi';
+//import CardList from './fakestore';
 
-function App() {
-
-
-  //   const ayyo = {
-  //     display: "grid",
-  //     textAlign: "center",
-  //     gridTemplateColumns: "auto auto auto auto",
-  //     gap: "20px",
-
-  //     borderRadius: "15px"
-
-  //   }
-  //   const ayyi = {
-  //     position: "fixed",
-  //     display: "grid",
-  //     width:"100%",
-  //     gridTemplateColumns: "auto auto auto auto auto",
-  //     backgroundColor: "#10908D"
-  //   }
-  return (
+const App =()=> 
+//<NavigationStack/> 
+  
+  {
+  return(
     <>
-    {/* <FakeApi/> */}
-    {/* <UserData/> */}
-    {/* <Ingrient/> */}
-    {/* <FakeApi/> */}
-    {/* <ButtonClass/> */}
-    {/* <SquareBlock/> */}
-    {/* <IplProgress/>  */}
-    {/* <FakeApi/> */}
-    {/* <CardList/> */}
-    {/* <ProgressBar completed={20} bgcolor="green"/> */}
-    {/* <TableApi/> */}
-    {/* <TableApi/> */}
-     <TableApi/>
-
-      </>
-      );
+  <Loader/>
+    </>
+  )
 }
+// {/* <NavigationStack/> */}
+
 
       export default App
