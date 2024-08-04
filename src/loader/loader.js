@@ -10,7 +10,7 @@ export default function Loader() {
 height="240"
 width="240"
 radius="10"
-color="violet"
+color="lightgreen"
 ariaLabel="three-dots-loading"
 wrapperStyle
 wrapperClass
