@@ -7,8 +7,8 @@ export default function Loader() {
     <div style={{padding:"30px",paddingLeft:"400px"}}>
  <h1>The Page is Loading......</h1>  
 <Audio
-height="240"
-width="240"
+height="230"
+width="230"
 radius="10"
 color="lightgreen"
 ariaLabel="three-dots-loading"
@@ -19,8 +19,8 @@ wrapperClass
 />
 <DNA
 visible={true}
-height="240"
-width="240"
+height="230"
+width="230"
 ariaLabel="dna-loading"
 wrapperStyle={{}}
 wrapperClass="dna-wrapper"

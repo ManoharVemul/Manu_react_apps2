@@ -1,38 +1,3 @@
-// import { Link } from "react-router-dom"
-// import 'bootstrap'
-// import './navbar.css'
-// const NavBar = () => {
-//   const linkStyle = { margin: "10px" }
-//   return (
-//     <>
-//       <nav className="navbar navbar-expand-sm bg-dark navbar-light">
-//         <div className="container-fluid">
-//           <ul className="navbar-nav" style={linkStyle}>
-//             <li className="nav-item">
-//               <Link  to={"/about"} style={linkStyle}>About</Link>
-//             </li>
-//             <li className="nav-item" style={linkStyle}>
-//               <Link to={"/"} style={linkStyle}>Home </Link>
-
-//             </li>
-//             <li className="nav-item" style={linkStyle}>
-//               <Link  to={"/setting"}  style={linkStyle}> Setting</Link>
-//             </li>
-//             <li className="nav-item" style={linkStyle}>
-//               <Link  to={"/blog"}  style={linkStyle}>Blog </Link>
-//             </li>
-//           </ul>
-//         </div>
-//       </nav>
-
-//     </>
-//   )
-// }
-// export default NavBar
-
-
-
-
 
 import { Link } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css'; // Ensure Bootstrap CSS is imported
