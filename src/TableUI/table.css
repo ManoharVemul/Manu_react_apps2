@@ -1,0 +1,75 @@
+/* Container for the entire table component */
+.table-container {
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  /* Header styling */
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  /* Table styling */
+  .table {
+    background-color: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Table header styling */
+  .table thead {
+    background-color: #f1f1f1;
+    color: #333;
+  }
+  
+  /* Table cell styling */
+  .table td, .table th {
+    vertical-align: middle;
+    padding: 12px 15px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  /* Styling for table images */
+  .table img {
+    border-radius: 5px;
+    object-fit: fill;
+  }
+  
+  /* Button styling */
+  .table button {
+    border: none;
+    background-color: #007bff;
+    color: #ffffff;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 0 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .table button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for delete buttons */
+  .table button.delete {
+    background-color: #dc3545;
+  }
+  
+  .table button.delete:hover {
+    background-color: #c82333;
+  }
+  
+  /* Loader styling */
+  .loader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+  }

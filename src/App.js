@@ -1,10 +1,8 @@
-
+import React from "react";
 import './App.css';
-import NavigationStack from './navigation/navigation';
+import ToDo from "./hooks/toDoLIst";
 
 
-
-const App =()=><NavigationStack/>
-{/* <>hi</> */}
+const App =()=><><ToDo/></>
 
  export default App

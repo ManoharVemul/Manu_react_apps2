@@ -1,4 +1,5 @@
-import { Component } from "react";
+import React, { Component } from "react";
+
 import './class.css'
 class SquareBlock extends Component {
     state = {
@@ -50,4 +51,5 @@ class SquareBlock extends Component {
     }
 }
 export default SquareBlock
+
 

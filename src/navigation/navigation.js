@@ -13,8 +13,10 @@ const NavigationStack = () => {
         <BrowserRouter>
             <Routes>
                 <Route path ="/" element = {<HomeRecipeScreen/>}/>
-                <Route path="/" element = {<ViewMore/>}/>
-                <Route path="/" element = {<FavouriteRecipe/>}/>
+                <Route path="/viewmore" element = {<ViewMore/>}/>
+                <Route path="/favourite" element = {<FavouriteRecipe/>}/>
+                <Route path="/viewmore/:id" element = {<ViewMore/>}/>
+                <Route path="/favourite/:id" element = {<FavouriteRecipe/>}/>
                 {/* <Route path="/" element={<HomeScreen />} />
                 <Route path="about" element={<AboutScreen />} />
                 <Route path="blog" element={<BlogScreen />} />
@@ -27,3 +29,5 @@ const NavigationStack = () => {
 }
 
 export default NavigationStack
+
+
