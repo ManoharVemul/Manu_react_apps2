@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-
+import './abc.css'
 function ToDo() {
   const [listu, setListu] = useState([]);
   const [inputu, setInputu] = useState("")
@@ -10,9 +10,7 @@ function ToDo() {
     if (inputu.trim()) {
       setListu([...listu, inputu]);
       setInputu("");
-    }
-
-  }
+    }}
 
   const deleteHandler = (index) => {
     const updateListu = listu.filter((e, ind) => ind !== index)
@@ -21,17 +19,18 @@ function ToDo() {
   const deleteAll = () => {
     setListu([])
   }
+ 
 
-  return (<>
+  return (<div>
     <input
       type="text"
       value={inputu}
       onChange={(e) => { setInputu(e.target.value) }} />
     <button onClick={addHandler}>Add</button>
     <button onClick={deleteAll} >DeleteAll</button>
-    <ul>
-      {listu.length > 0 ? (listu.map((each, index) => <li key={index}>{each} <button onClick={() => deleteHandler(index)}>Delete</button> </li>)) : (<li>No items to display</li>)}
-    </ul></>
+    <ol>
+      {listu.length > 0 ? (listu.map((each, index) => <li key={index}>{each} <button className="delete-btn" onClick={() => deleteHandler(index)}>Delete</button> </li>)) : (<p>No items to display</p>)}
+    </ol></div>
   )
 }
 
